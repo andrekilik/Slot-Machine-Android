@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="logoWidth">150dp</dimen>
+    <dimen name="logoHeight">150dp</dimen>
+    <dimen name="paddingHeader">16dp</dimen>
+    <dimen name="paddingFooter">8dp</dimen>
+    <dimen name="btStrokeWidth">1dp</dimen>
+    <dimen name="btCornerRadius">3dp</dimen>
+    <dimen name="btPadding">10dp</dimen>
+    <dimen name="btGradientCornerRadius">3dp</dimen>
+    <dimen name="btGrStrokeWidth">1dp</dimen>
+    <dimen name="btMargin">16dp</dimen>
+    <dimen name="menuFontSize">20dp</dimen>
+    <dimen name="slotCornerRadius">16dp</dimen>
+    <dimen name="slot_stroke">4dp</dimen>
+    <dimen name="logoPlay">90dp</dimen>
+    <dimen name="textUsrSize">36dp</dimen>
+    <dimen name="sexSize">28dp</dimen>
+    <dimen name="marginLeft">10dp</dimen>
+    <dimen name="marginbtnusr">80dp</dimen>
+    <dimen name="imgRes">150dp</dimen>
+    <dimen name="sexImgSize">120dp</dimen>
+    <dimen name="sz30dp">30dp</dimen>
+    <dimen name="sz40dp">40dp</dimen>
+    <dimen name="sz80dp">80dp</dimen>
+</resources>

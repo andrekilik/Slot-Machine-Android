@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/headerAbout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobre o Jogo"
+        android:gravity="center"
+        android:padding="@dimen/paddingHeader"
+        android:textStyle="bold"
+        android:textSize="@dimen/menuFontSize"
+        android:textColor="@color/btText"
+        android:id="@+id/tvHeaderAbout"/>
+
+</RelativeLayout>

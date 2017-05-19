@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="coinAmount">
+        <item>@string/value1</item>
+        <item>@string/value2</item>
+        <item>@string/value3</item>
+        <item>@string/value4</item>
+        <item>@string/value5</item>
+        <item>@string/value6</item>
+        <item>@string/value7</item>
+        <item>@string/value8</item>
+        <item>@string/value9</item>
+        <item>@string/value10</item>
+    </string-array>
+</resources>

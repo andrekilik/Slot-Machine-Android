@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_splash">#000000</color>
+    <color name="btColor1">#ef4444</color>
+    <color name="btColor2">#992f2f</color>
+    <color name="btText">#FFF</color>
+    <color name="stroke">#ffffff</color>
+    <color name="solidSlot">#AAFFFFFF</color>
+    <color name="btColor3">#f1c40f</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.example.andre.slotmachine.MenuActivity"
+    android:background="@drawable/background_menu">
+    <include layout="@layout/header_menu_principal"/>
+    <include layout="@layout/footer_menu_principal"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/footer"
+        android:gravity="center">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btPlay"
+            android:text="@string/play"
+            android:layout_marginBottom="@dimen/btMargin"
+            android:textColor="@color/btText"
+            android:background="@drawable/custom_button"
+            android:onClick="play"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btSobre"
+            android:text="@string/sobre"
+            android:textColor="@color/btText"
+            android:background="@drawable/custom_button"
+            android:layout_below="@+id/btPlay"
+            android:onClick="about"/>
+    </RelativeLayout>
+</RelativeLayout>
